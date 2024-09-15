@@ -7,7 +7,7 @@ import Testimonials from '~/components/widgets/Testimonials.astro';
 import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
-  title: 'Services',
+  title: 'Services Cybtek',
 };
 ---
 
@@ -23,6 +23,7 @@ const metadata = {
       alt: 'Cybtek Hero Image',
     }}
   />
+
   <!-- Features2 Widget ************** -->
   <Features2
     title="Explorez nos services d'IA de pointe"
@@ -83,140 +84,135 @@ const metadata = {
       },
     ]}
   />
-</Layout>
 
   <!-- Content Widget **************** -->
-
   <Content
     isReversed
     items={[
       {
-        title: 'High-Quality Designs',
+        title: 'Solutions IA de haute qualité',
         description:
-          'Our templates feature top-tier designs that ensure a professional and polished appearance for your projects.',
+          'Nos solutions d'IA sont conçues pour offrir des performances optimales et des résultats précis pour vos projets.',
         icon: 'tabler:wand',
       },
       {
-        title: 'Customization Tools',
+        title: 'Outils de personnalisation',
         description:
-          'Tailor each template to your unique needs with user-friendly customization tools that let you personalize colors, fonts, and content.',
+          'Adaptez chaque solution à vos besoins uniques grâce à nos outils de personnalisation faciles à utiliser.',
         icon: 'tabler:settings',
       },
       {
-        title: 'Pre-Designed Elements',
+        title: 'Modèles pré-entraînés',
         description:
-          'Save time and effort with our ready-to-use elements, including graphics, icons, and layouts that enhance the visual appeal of your creations.',
+          'Gagnez du temps avec nos modèles d'IA pré-entraînés, prêts à être déployés pour améliorer rapidement vos processus.',
         icon: 'tabler:presentation',
       },
       {
-        title: 'Preview and Mockup Views',
+        title: 'Visualisation des données',
         description:
-          'Visualize the final outcome before making any changes using our preview and mockup views, ensuring your projects meet your expectations.',
-        icon: 'tabler:carousel-horizontal',
+          'Explorez vos données et les résultats de l'IA avec nos outils de visualisation avancés pour une prise de décision éclairée.',
+        icon: 'tabler:chart-dots',
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1525909002-1b05e0c869d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
-      alt: 'Features Image',
+      src: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
+      alt: 'Fonctionnalités Cybtek',
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Main Features</h3>
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Fonctionnalités principales</h3>
     </Fragment>
   </Content>
 
   <!-- Content Widget **************** -->
-
   <Content
     isAfterContent
     items={[
       {
-        title: 'Time Savings',
+        title: 'Gain de temps',
         description:
-          'Streamline your workflow, enabling you to create stunning materials efficiently and allocate more time to your core tasks.',
+          'Optimisez vos processus et concentrez-vous sur vos tâches essentielles grâce à l'automatisation intelligente.',
         icon: 'tabler:clock',
       },
       {
-        title: 'Professional Appearance',
+        title: 'Amélioration de la prise de décision',
         description:
-          'Elevate your projects with the polished and sophisticated look that our templates provide, making a lasting impression on your audience.',
-        icon: 'tabler:school',
+          'Prenez des décisions éclairées basées sur des analyses de données avancées et des prédictions précises.',
+        icon: 'tabler:bulb',
       },
       {
-        title: 'Cost-Efficiency',
+        title: 'Réduction des coûts',
         description:
-          'Benefit from cost savings by avoiding the need for custom design work, as our templates offer professional-grade designs at a fraction of the cost.',
+          'Réduisez vos coûts opérationnels en automatisant les tâches répétitives et en optimisant vos ressources.',
         icon: 'tabler:coin',
       },
       {
-        title: 'Instant Download',
+        title: 'Innovation continue',
         description:
-          'Enjoy immediate access to your chosen templates upon purchase, enabling you to begin working on your projects without delay.',
-        icon: 'tabler:file-download',
+          'Restez à la pointe de la technologie avec nos mises à jour régulières et nos nouvelles fonctionnalités IA.',
+        icon: 'tabler:rocket',
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1552664688-cf412ec27db2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-      alt: 'Benefits Image',
+      src: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
+      alt: 'Avantages Cybtek',
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Benefits</h3>
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Avantages</h3>
     </Fragment>
   </Content>
 
   <!-- Testimonials Widget *********** -->
-
   <Testimonials
-    title="Words from real customers"
+    title="Ce que disent nos clients"
     testimonials={[
       {
-        testimonial: `The designs are not only visually appealing but also highly professional. The templates have saved me a significant amount of time while helping me make a lasting impression on my clients.`,
-        name: 'Emily Kennedy',
-        job: 'Front-end developer',
+        testimonial: 'Les solutions d'IA de Cybtek ont considérablement amélioré notre efficacité opérationnelle. Leur chatbot IA a transformé notre service client, offrant une assistance 24/7 de haute qualité.',
+        name: 'Sophie Martin',
+        job: 'Directrice CRM, TechCorp',
         image: {
           src: 'https://images.unsplash.com/photo-1618835962148-cf177563c6c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=930&q=80',
-          alt: 'Emily Kennedy Image',
+          alt: 'Sophie Martin Image',
         },
       },
       {
-        testimonial: `It beautifully showcases my work, with its clean and elegant design that lets my photographs shine. Customization was a breeze, even for a non-tech person like me. The result is a professional and immersive portfolio that's garnered numerous compliments.`,
-        name: 'Sarah Hansen',
-        job: 'Photographer',
+        testimonial: 'L'intégration de l'IA de Cybtek dans notre e-commerce a boosté nos ventes de manière impressionnante. La personnalisation et les recommandations produits sont d'un autre niveau.',
+        name: 'Alexandre Dubois',
+        job: 'PDG, FutureTech',
         image: {
           src: 'https://images.unsplash.com/photo-1561406636-b80293969660?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-          alt: 'Sarah Hansen Image',
+          alt: 'Alexandre Dubois Image',
         },
       },
       {
-        testimonial: `I discovered these templates and I'm impressed by their variety and quality. They've helped me establish a consistent brand image across my marketing and social platforms, elevating my business's overall appearance.`,
-        name: 'Mark Wilkinson',
-        job: 'Small business owner',
+        testimonial: 'Le traitement du langage naturel de Cybtek nous a permis d'analyser des milliers de retours clients en temps réel, améliorant considérablement notre compréhension du marché.',
+        name: 'Marie Lefevre',
+        job: 'Directrice Marketing, InnoMarket',
         image: {
           src: 'https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=824&q=80',
-          alt: 'Mark Wilkinson Image',
+          alt: 'Marie Lefevre Image',
         },
       },
     ]}
     callToAction={{
       target: '_blank',
-      text: 'More testimonials...',
-      href: 'https://github.com/onwidget/astrowind',
+      text: 'Voir plus de témoignages...',
+      href: '/temoignages',
       icon: 'tabler:chevron-right',
     }}
   />
 
   <!-- CallToAction Widget *********** -->
-
   <CallToAction
     actions={[
       {
         variant: 'primary',
-        text: 'Start exploring',
-        href: '/',
+        text: 'Commencer avec Cybtek',
+        href: '/contact',
       },
     ]}
-    title="Dive into our template collection"
-    subtitle="Whether you're in business, design, or education, our templates are here to elevate your projects."
+    title="Prêt à révolutionner votre entreprise avec l'IA ?"
+    subtitle="Que vous soyez une startup ou une grande entreprise, nos solutions d'IA sont là pour propulser votre croissance."
   />
 </Layout>
