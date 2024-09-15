@@ -7,7 +7,7 @@ import Testimonials from '~/components/widgets/Testimonials.astro';
 import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
-  title: 'Services Cybtek',
+  title: 'Services',
 };
 ---
 
@@ -18,9 +18,9 @@ const metadata = {
     tagline="Services Cybtek 🚀"
     title="Propulsez vos projets avec notre expertise en IA open source"
     subtitle="Explorez nos solutions d'IA innovantes conçues pour révolutionner votre industrie. De l'analyse de données avancée aux chatbots intelligents, nous avons les outils pour booster votre succès. 🤖💡"
-    actions={[{ variant: 'primary', target: '_blank', text: 'Découvrir nos solutions', href: '/' }]}
+    actions={[{ variant: 'primary', target: '_blank', text: 'Start exploring', href: '/' }]}
     image={{
-      src: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
+      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
       alt: 'Cybtek Hero Image',
     }}
   />
@@ -33,21 +33,10 @@ const metadata = {
     columns={3}
     items={[
       {
-        title: 'Analyse prédictive 📊',
-        description:
-          'Anticipez les tendances du marché et prenez des décisions éclairées grâce à nos modèles d'IA avancés.',
-        icon: 'tabler:chart-dots',
-      },
-      {
-        title: 'Chatbots IA 💬',
+        title: 'Chatbots IA conversationnels 💬',
         description:
           'Améliorez votre service client avec des chatbots intelligents capables de gérer des conversations complexes 24/7.',
         icon: 'tabler:message-chatbot',
-      },
-      {
-        title: 'Vision par ordinateur 👁️',
-        description: 'Automatisez vos processus visuels avec notre technologie de reconnaissance d'images de pointe.',
-        icon: 'tabler:eye',
       },
       {
         title: 'Traitement du langage naturel 🗣️',
@@ -57,8 +46,7 @@ const metadata = {
       },
       {
         title: 'Automatisation des processus 🤖',
-        description:
-          'Optimisez vos opérations avec nos solutions d'automatisation intelligente basées sur l'IA.',
+        description: `Optimisez vos opérations avec nos solutions d'automatisation intelligente basées sur l'IA.`,
         icon: 'tabler:robot',
       },
       {
@@ -66,6 +54,35 @@ const metadata = {
         description:
           'Adoptez une IA responsable avec nos modèles transparents et conformes aux normes éthiques.',
         icon: 'tabler:shield-check',
+      },
+      {
+        title: 'Chatbot WhatsApp 💬',
+        description:
+          'Transformez votre présence sur WhatsApp avec nos chatbots IA. Offrez un service client 24/7, automatisez les réponses et engagez vos clients de manière personnalisée.',
+        icon: 'tabler:brand-whatsapp',
+      },
+      {
+        title: 'Intégration Notion 🔄',
+        description:
+          'Synchronisez vos données IA avec Notion. Automatisez la création de pages, organisez vos insights et boostez votre productivité avec notre intégration seamless.',
+        icon: 'tabler:notebook',
+      },
+      {
+        title: 'IA pour e-commerce 🛒',
+        description:
+          'Optimisez votre boutique en ligne avec notre IA. De la personnalisation produit à la prévision des ventes, révolutionnez l'expérience d'achat de vos clients.',
+        icon: 'tabler:shopping-cart',
+      },
+      {
+        title: 'Analyse de sentiments 😊😐😠',
+        description: `Comprenez les émotions de vos clients grâce à notre IA d'analyse de sentiments. Idéal pour le service client, les études de marché et l'amélioration de produits.`,
+        icon: 'tabler:mood-happy',
+      },
+      {
+        title: 'Assistant virtuel personnalisé 🦸‍♀️',
+        description:
+          'Créez votre propre assistant IA sur mesure. Automatisez les tâches, répondez aux questions et augmentez la productivité de votre équipe.',
+        icon: 'tabler:robot',
       },
     ]}
   />
@@ -76,37 +93,37 @@ const metadata = {
     isReversed
     items={[
       {
-        title: 'Modèles d'IA personnalisés',
+        title: 'High-Quality Designs',
         description:
-          'Nous développons des solutions sur mesure adaptées aux besoins spécifiques de votre entreprise.',
+          'Our templates feature top-tier designs that ensure a professional and polished appearance for your projects.',
         icon: 'tabler:wand',
       },
       {
-        title: 'Intégration facile',
+        title: 'Customization Tools',
         description:
-          'Nos solutions s'intègrent harmonieusement à votre infrastructure existante pour une adoption en douceur.',
-        icon: 'tabler:plug-connected',
+          'Tailor each template to your unique needs with user-friendly customization tools that let you personalize colors, fonts, and content.',
+        icon: 'tabler:settings',
       },
       {
-        title: 'Support technique 24/7',
+        title: 'Pre-Designed Elements',
         description:
-          'Notre équipe d'experts est disponible à tout moment pour assurer le bon fonctionnement de vos systèmes d'IA.',
-        icon: 'tabler:headset',
+          'Save time and effort with our ready-to-use elements, including graphics, icons, and layouts that enhance the visual appeal of your creations.',
+        icon: 'tabler:presentation',
       },
       {
-        title: 'Mises à jour continues',
+        title: 'Preview and Mockup Views',
         description:
-          'Bénéficiez des dernières avancées en IA avec nos mises à jour régulières et notre veille technologique.',
-        icon: 'tabler:refresh',
+          'Visualize the final outcome before making any changes using our preview and mockup views, ensuring your projects meet your expectations.',
+        icon: 'tabler:carousel-horizontal',
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
-      alt: 'Features Cybtek Image',
+      src: 'https://images.unsplash.com/photo-1525909002-1b05e0c869d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
+      alt: 'Features Image',
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Caractéristiques principales</h3>
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Main Features</h3>
     </Fragment>
   </Content>
 
@@ -116,76 +133,76 @@ const metadata = {
     isAfterContent
     items={[
       {
-        title: 'Gain de temps ⏱️',
+        title: 'Time Savings',
         description:
-          'Automatisez les tâches répétitives et concentrez-vous sur la croissance de votre entreprise.',
+          'Streamline your workflow, enabling you to create stunning materials efficiently and allocate more time to your core tasks.',
         icon: 'tabler:clock',
       },
       {
-        title: 'Précision accrue 🎯',
+        title: 'Professional Appearance',
         description:
-          'Améliorez la qualité de vos décisions grâce à des analyses basées sur des données précises et fiables.',
-        icon: 'tabler:bullseye-arrow',
+          'Elevate your projects with the polished and sophisticated look that our templates provide, making a lasting impression on your audience.',
+        icon: 'tabler:school',
       },
       {
-        title: 'Réduction des coûts 💰',
+        title: 'Cost-Efficiency',
         description:
-          'Optimisez vos ressources et réduisez les dépenses grâce à l'efficacité de nos solutions d'IA.',
+          'Benefit from cost savings by avoiding the need for custom design work, as our templates offer professional-grade designs at a fraction of the cost.',
         icon: 'tabler:coin',
       },
       {
-        title: 'Innovation continue 🚀',
+        title: 'Instant Download',
         description:
-          'Restez à la pointe de la technologie avec nos mises à jour régulières et nos nouvelles fonctionnalités.',
-        icon: 'tabler:rocket',
+          'Enjoy immediate access to your chosen templates upon purchase, enabling you to begin working on your projects without delay.',
+        icon: 'tabler:file-download',
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
-      alt: 'Benefits Cybtek Image',
+      src: 'https://images.unsplash.com/photo-1552664688-cf412ec27db2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+      alt: 'Benefits Image',
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Avantages</h3>
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Benefits</h3>
     </Fragment>
   </Content>
 
   <!-- Testimonials Widget *********** -->
 
   <Testimonials
-    title="Ce que disent nos clients 🗣️"
+    title="Words from real customers"
     testimonials={[
       {
-        testimonial: 'Grâce à l'IA de Cybtek, nous avons pu automatiser 70% de notre service client, améliorant considérablement notre efficacité.',
-        name: 'Sophie Martin',
-        job: 'Directrice CRM, TechCorp',
+        testimonial: `The designs are not only visually appealing but also highly professional. The templates have saved me a significant amount of time while helping me make a lasting impression on my clients.`,
+        name: 'Emily Kennedy',
+        job: 'Front-end developer',
         image: {
           src: 'https://images.unsplash.com/photo-1618835962148-cf177563c6c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=930&q=80',
-          alt: 'Sophie Martin Image',
+          alt: 'Emily Kennedy Image',
         },
       },
       {
-        testimonial: 'L'analyse prédictive de Cybtek nous a permis d'anticiper les tendances du marché avec une précision incroyable, boostant nos ventes de 25%.',
-        name: 'Alexandre Dubois',
-        job: 'CEO, FutureTech',
+        testimonial: `It beautifully showcases my work, with its clean and elegant design that lets my photographs shine. Customization was a breeze, even for a non-tech person like me. The result is a professional and immersive portfolio that's garnered numerous compliments.`,
+        name: 'Sarah Hansen',
+        job: 'Photographer',
         image: {
           src: 'https://images.unsplash.com/photo-1561406636-b80293969660?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-          alt: 'Alexandre Dubois Image',
+          alt: 'Sarah Hansen Image',
         },
       },
       {
-        testimonial: 'La solution de vision par ordinateur de Cybtek a révolutionné notre contrôle qualité, réduisant les erreurs de 90% et augmentant notre productivité.',
-        name: 'Marie Lefevre',
-        job: 'Directrice des opérations, InnoFacture',
+        testimonial: `I discovered these templates and I'm impressed by their variety and quality. They've helped me establish a consistent brand image across my marketing and social platforms, elevating my business's overall appearance.`,
+        name: 'Mark Wilkinson',
+        job: 'Small business owner',
         image: {
           src: 'https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=824&q=80',
-          alt: 'Marie Lefevre Image',
+          alt: 'Mark Wilkinson Image',
         },
       },
     ]}
     callToAction={{
       target: '_blank',
-      text: 'Plus de témoignages...',
+      text: 'More testimonials...',
       href: 'https://github.com/onwidget/astrowind',
       icon: 'tabler:chevron-right',
     }}
@@ -197,11 +214,11 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Démarrez votre projet IA',
+        text: 'Start exploring',
         href: '/',
       },
     ]}
-    title="Prêt à révolutionner votre entreprise avec l'IA ? 🚀"
-    subtitle="Que vous soyez une startup ou une grande entreprise, nos solutions d'IA sont là pour propulser votre croissance."
+    title="Dive into our template collection"
+    subtitle="Whether you're in business, design, or education, our templates are here to elevate your projects."
   />
 </Layout>
