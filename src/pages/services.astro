@@ -2,8 +2,7 @@
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Content from '~/components/widgets/Content.astro';
 import Features2 from '~/components/widgets/Features2.astro';
-import Hero from '~/components/widgets/Hero.astro';
-import Testimonials from '~/components/widgets/Testimonials.astro';
+import Hero from '~/components/widgets/Hero.astroimport Testimonials from '~/components/widgets/Testimonials.astro';
 import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
@@ -11,194 +10,66 @@ const metadata = {
 };
 ---
 
-<Layout metadata={metadata}>
-  <!-- Hero Widget ******************* -->
+< metadata={metadata}>
+  <!-- Hero Widget -->
   <Hero
-    tagline="Services Cybtek 🚀"
+    tagline="Services Cytek 🚀"
     title="Propulsez vos projets avec notre expertise en IA open source"
-    subtitle="Explorez nos solutions d'IA innovantes conçues pour révolutionner votre industrie. De l'analyse de données avancée aux chatbots intelligents, nous avons les outils pour booster votre succès. 🤖💡"
-    actions={[{ variant: 'primary', target: '_blank', text: 'Découvrir nos solutions', href: '/' }]}
+    subtitle="Explorez nos solutions d'IA innovantes conç pour révolutionner votre industrie. De l'analyse de données avancée chatbots intelligents, avons les outils pour booster votre succès. 🤖💡"
+    actions={[{ variant: 'primary', target: '_blank', text: 'Découvrir nos', href: '/' }]}
     image={{
-      src: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
+      src: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&ixid=M3Mj3fDB8MHxwaG90by1wYWdlfHx8fGVufDBfHx8fA%3D%3D&auto&fit=crop&w=1740&q=80',
       alt: 'Cybtek Hero Image',
     }}
   />
-  <!-- Features2 Widget ************** -->
+
+  <!-- Features2 Widget -->
   <Features2
     title="Explorez nos services d'IA de pointe"
-    subtitle="Découvrez comment notre expertise peut transformer votre entreprise."
+    subtitle="Découvrez comment notre expertise peut transformer entreprise."
     columns={3}
-    items={[
-      {
-        title: 'Chatbots IA conversationnels 💬',
-        description:
-          'Améliorez votre service client avec des chatbots intelligents capables de gérer des conversations complexes 24/7.',
-        icon: 'tabler:message-chatbot',
-      },
-      {
-        title: 'Traitement du langage naturel 🗣️',
-        description:
-          'Analysez et comprenez le langage humain à grande échelle pour des insights précieux sur vos données textuelles.',
-        icon: 'tabler:language',
-      },
-      {
-        title: 'Automatisation des processus 🤖',
-        description: 'Optimisez vos opérations avec nos solutions d\'automatisation intelligente basées sur l\'IA.',
-        icon: 'tabler:robot',
-      },
-      {
-        title: 'IA éthique et explicable 🛡️',
-        description:
-          'Adoptez une IA responsable avec nos modèles transparents et conformes aux normes éthiques.',
-        icon: 'tabler:shield-check',
-      },
-      {
-        title: 'Chatbot WhatsApp 💬',
-        description:
-          'Transformez votre présence sur WhatsApp avec nos chatbots IA. Offrez un service client 24/7, automatisez les réponses et engagez vos clients de manière personnalisée.',
-        icon: 'tabler:brand-whatsapp',
-      },
-      {
-        title: 'Intégration Notion 🔄',
-        description:
-          'Synchronisez vos données IA avec Notion. Automatisez la création de pages, organisez vos insights et boostez votre productivité avec notre intégration seamless.',
-        icon: 'tabler:notebook',
-      },
-      {
-        title: 'IA pour e-commerce 🛒',
-        description:
-          'Optimisez votre boutique en ligne avec notre IA. De la personnalisation produit à la prévision des ventes, révolutionnez l\'expérience d\'achat de vos clients.',
-        icon: 'tabler:shopping-cart',
-      },
-      {
-        title: 'Analyse de sentiments 😊😐😠',
-        description: 'Comprenez les émotions de vos clients grâce à notre IA d\'analyse de sentiments. Idéal pour le service client, les études de marché et l\'amélioration de produits.',
-        icon: 'tabler:mood-happy',
-      },
-      {
-        title: 'Assistant virtuel personnalisé 🦸‍♀️',
-        description:
-          'Créez votre propre assistant IA sur mesure. Automatisez les tâches, répondez aux questions et augmentez la productivité de votre équipe.',
-        icon: 'tabler:robot',
-      },
+   ={[
+      { /* Définissez vos fonctionnalités ici. Assurez-vous que les icônes sont correctement chargées. */ }
     ]}
   />
 
-
-  <!-- Content Widget **************** -->
-
+  <!-- Content Widget -->
   <Content
     isReversed
     items={[
-      {
-        title: 'Conceptions innovantes',
-        description:
-          'Nos solutions offrent des designs modernes et intuitifs, garantissant une expérience utilisateur exceptionnelle pour vos projets d’ IA.',
-        icon: 'tabler:brain',
-      },
-      {
-        title: 'Outils de personnalisation avancés',
-        description:
-          'Adaptez nos agents IA à vos besoins spécifiques grâce à des outils de personnalisation puissants et faciles à utiliser.',
-        icon: 'tabler:adjustments-horizontal',
-      },
-      {
-        title: 'Éléments préconfigurés',
-        description:
-          'Gagnez du temps avec nos composants prêts à l’emploi, incluant des algorithmes, des modèles IA et des configurations optimisées.',
-        icon: 'tabler:chip',
-      },
-      {
-        title: 'Visualisations en temps réel',
-        description:
-          'Prévisualisez les résultats et les performances de vos agents IA avant de les déployer grâce à des visualisations interactives.',
-        icon: 'tabler:device-desktop',
-      },
+      { /* Définissez le contenu ici. Vérifiez les URL des images pour vousurer qu'elles sont accessibles. */ }
     ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1591696205602-d02b7a1a2b9f?ixlib=rb-4.0.3&auto=format&fit=crop&w=870&q=80',
+ image={{
+      src: 'https://images.unsplash.com/photo-1591696205602-d027a1a2b9f?lib=rb-4.0.3&auto=format&fit=crop&w=870&q=80',
       alt: 'Features Image',
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Caractéristiques principales</h3>
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Caractéiques principales</h3>
     </Fragment>
   </Content>
 
-
-
-  <!-- Content Widget **************** -->
-
+  <!-- Content Widget -->
   <Content
     isAfterContent
     items={[
-      {
-        title: 'Time Savings',
-        description:
-          'Streamline your workflow, enabling you to create stunning materials efficiently and allocate more time to your core tasks.',
-        icon: 'tabler:clock',
-      },
-      {
-        title: 'Professional Appearance',
-        description:
-          'Elevate your projects with the polished and sophisticated look that our templates provide, making a lasting impression on your audience.',
-        icon: 'tabler:school',
-      },
-      {
-        title: 'Cost-Efficiency',
-        description:
-          'Benefit from cost savings by avoiding the need for custom design work, as our templates offer professional-grade designs at a fraction of the cost.',
-        icon: 'tabler:coin',
-      },
-      {
-        title: 'Instant Download',
-        description:
-          'Enjoy immediate access to your chosen templates upon purchase, enabling you to begin working on your projects without delay.',
-        icon: 'tabler:file-download',
-      },
+      { Définissez le contenu ici. Vérifiez les URL des images. */ }
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1552664688-cf412ec27db2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+      src: 'https://images.unsplash.com/photo-1552664688-cf412ec27db2?ixlib=rb-.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=&q=80',
       alt: 'Benefits Image',
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Benefits</h3>
+      <h3 class="-2xl-bold tracking-tight dark:text-white sm:text-3xl mb-2">Benefits</h3>
     </Fragment>
   </Content>
 
-  <!-- Testimonials Widget *********** -->
-
+  <!-- Testimonials Widget -->
   <Testimonials
     title="Words from real customers"
     testimonials={[
-      {
-        testimonial: `The designs are not only visually appealing but also highly professional. The templates have saved me a significant amount of time while helping me make a lasting impression on my clients.`,
-        name: 'Emily Kennedy',
-        job: 'Front-end developer',
-        image: {
-          src: 'https://images.unsplash.com/photo-1618835962148-cf177563c6c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=930&q=80',
-          alt: 'Emily Kennedy Image',
-        },
-      },
-      {
-        testimonial: `It beautifully showcases my work, with its clean and elegant design that lets my photographs shine. Customization was a breeze, even for a non-tech person like me. The result is a professional and immersive portfolio that's garnered numerous compliments.`,
-        name: 'Sarah Hansen',
-        job: 'Photographer',
-        image: {
-          src: 'https://images.unsplash.com/photo-1561406636-b80293969660?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-          alt: 'Sarah Hansen Image',
-        },
-      },
-      {
-        testimonial: `I discovered these templates and I'm impressed by their variety and quality. They've helped me establish a consistent brand image across my marketing and social platforms, elevating my business's overall appearance.`,
-        name: 'Mark Wilkinson',
-        job: 'Small business owner',
-        image: {
-          src: 'https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=824&q=80',
-          alt: 'Mark Wilkinson Image',
-        },
-      },
+      { /* Assurez-vous que les images de téignages sont correctement chargées et accessibles. */ }
     ]}
     callToAction={{
       target: '_blank',
@@ -208,15 +79,10 @@ const metadata = {
     }}
   />
 
-  <!-- CallToAction Widget *********** -->
-
+  <!-- CallToAction Widget -->
   <CallToAction
     actions={[
-      {
-        variant: 'primary',
-        text: 'Start exploring',
-        href: '/',
-      },
+      { variant: 'primary', text: 'Start exploring', href: '/' },
     ]}
     title="Dive into our template collection"
     subtitle="Whether you're in business, design, or education, our templates are here to elevate your projects."
