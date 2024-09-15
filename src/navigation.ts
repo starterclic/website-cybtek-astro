@@ -5,18 +5,18 @@ export const headerData = {
       
     {
       text: 'Assistants',
-      href: getPermalink('/ia/agents'),
+      href: getPermalink('/agents'),
     },
     {
       text: 'Services',
-      href: getPermalink('/ia/services'),
+      href: getPermalink('/services'),
     },
     {
       text: 'Support ',
-      href: getPermalink('/support/gpt'),
+      href: getPermalink('/support'),
     },
     {
-      text: 'Pricing',
+      text: 'Tarifs',
       href: getPermalink('/pricing'),
     },
     
