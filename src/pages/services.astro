@@ -7,7 +7,7 @@ import Testimonials from '~/components/widgets/Testimonials.astro';
 import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
-  title: 'Services',
+  title: 'Services Cybtek',
 };
 ---
 
@@ -15,74 +15,57 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    tagline="Services"
-    title="Elevate your projects with our stunning templates"
-    subtitle="Explore our meticulously crafted templates tailored to various industries and purposes. From captivating presentations to functional website designs, we offer the tools you need to succeed."
-    actions={[{ variant: 'primary', target: '_blank', text: 'Start exploring', href: '/' }]}
+    tagline="Services Cybtek 🚀"
+    title="Propulsez vos projets avec notre expertise en IA open source"
+    subtitle="Explorez nos solutions d'IA innovantes conçues pour révolutionner votre industrie. De l'analyse de données avancée aux chatbots intelligents, nous avons les outils pour booster votre succès. 🤖💡"
+    actions={[{ variant: 'primary', target: '_blank', text: 'Découvrir nos solutions', href: '/' }]}
     image={{
-      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
-      alt: 'AstroWind Hero Image',
+      src: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
+      alt: 'Cybtek Hero Image',
     }}
   />
 
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Explore our diverse templates"
-    subtitle="Discover our selection below to streamline and elevate your projects."
+    title="Explorez nos services d'IA de pointe"
+    subtitle="Découvrez comment notre expertise peut transformer votre entreprise."
     columns={3}
     items={[
       {
-        title: 'Educational',
+        title: 'Analyse prédictive 📊',
         description:
-          'By harmonizing instructional design and visual appeal, templates streamline content creation for varied materials, expediting development and cultivating engaging educational spaces.',
-        icon: 'tabler:school',
+          'Anticipez les tendances du marché et prenez des décisions éclairées grâce à nos modèles d'IA avancés.',
+        icon: 'tabler:chart-dots',
       },
       {
-        title: 'Interior Design',
+        title: 'Chatbots IA 💬',
         description:
-          'Crafting functional, visually appealing spaces for residential and commercial use. Templates emphasize layout, colors, and furniture setups, offering a versatile toolkit for your design vision.',
-        icon: 'tabler:home-star',
+          'Améliorez votre service client avec des chatbots intelligents capables de gérer des conversations complexes 24/7.',
+        icon: 'tabler:message-chatbot',
       },
       {
-        title: 'Photography',
-        description: `Empowering photographers, our templates facilitate captivating storytelling. With a keen focus on layout, galleries, and typography, they cater to both professionals and enthusiasts.`,
-        icon: 'tabler:photo',
+        title: 'Vision par ordinateur 👁️',
+        description: 'Automatisez vos processus visuels avec notre technologie de reconnaissance d'images de pointe.',
+        icon: 'tabler:eye',
       },
       {
-        title: 'E-commerce',
+        title: 'Traitement du langage naturel 🗣️',
         description:
-          'Developing engaging online stores, our E-commerce templates ensure a dynamic presence to effectively showcase products. Ideal for startups or revamps.',
-        icon: 'tabler:shopping-cart',
+          'Analysez et comprenez le langage humain à grande échelle pour des insights précieux sur vos données textuelles.',
+        icon: 'tabler:language',
       },
       {
-        title: 'Blog',
+        title: 'Automatisation des processus 🤖',
         description:
-          'With attention to typography, these templates empower effective content presentation for writers at any stage, ensuring visually engaging and user-friendly blogs.',
-        icon: 'tabler:article',
+          'Optimisez vos opérations avec nos solutions d'automatisation intelligente basées sur l'IA.',
+        icon: 'tabler:robot',
       },
       {
-        title: 'Business',
+        title: 'IA éthique et explicable 🛡️',
         description:
-          'Providing polished options for effective visual communication, these templates empower both startups and established companies for a professional brand presence.',
-        icon: 'tabler:building-store',
-      },
-      {
-        title: 'Branding',
-        description:
-          'Offering pre-designed elements for a consistent brand identity, including logos and marketing materials. Ideal for new ventures or revamps.',
-        icon: 'tabler:arrow-big-up-lines',
-      },
-      {
-        title: 'Medical',
-        description: `From presentations to patient forms, these tools enhance communication effectiveness for healthcare professionals. Ideal for medical practices and research pursuits.`,
-        icon: 'tabler:vaccine',
-      },
-      {
-        title: 'Fashion Design',
-        description:
-          'With attention to detail, customization, and contemporary design, they empower designers to showcase ideas cohesively. Ideal for all levels of designers.',
-        icon: 'tabler:tie',
+          'Adoptez une IA responsable avec nos modèles transparents et conformes aux normes éthiques.',
+        icon: 'tabler:shield-check',
       },
     ]}
   />
@@ -93,37 +76,37 @@ const metadata = {
     isReversed
     items={[
       {
-        title: 'High-Quality Designs',
+        title: 'Modèles d'IA personnalisés',
         description:
-          'Our templates feature top-tier designs that ensure a professional and polished appearance for your projects.',
+          'Nous développons des solutions sur mesure adaptées aux besoins spécifiques de votre entreprise.',
         icon: 'tabler:wand',
       },
       {
-        title: 'Customization Tools',
+        title: 'Intégration facile',
         description:
-          'Tailor each template to your unique needs with user-friendly customization tools that let you personalize colors, fonts, and content.',
-        icon: 'tabler:settings',
+          'Nos solutions s'intègrent harmonieusement à votre infrastructure existante pour une adoption en douceur.',
+        icon: 'tabler:plug-connected',
       },
       {
-        title: 'Pre-Designed Elements',
+        title: 'Support technique 24/7',
         description:
-          'Save time and effort with our ready-to-use elements, including graphics, icons, and layouts that enhance the visual appeal of your creations.',
-        icon: 'tabler:presentation',
+          'Notre équipe d'experts est disponible à tout moment pour assurer le bon fonctionnement de vos systèmes d'IA.',
+        icon: 'tabler:headset',
       },
       {
-        title: 'Preview and Mockup Views',
+        title: 'Mises à jour continues',
         description:
-          'Visualize the final outcome before making any changes using our preview and mockup views, ensuring your projects meet your expectations.',
-        icon: 'tabler:carousel-horizontal',
+          'Bénéficiez des dernières avancées en IA avec nos mises à jour régulières et notre veille technologique.',
+        icon: 'tabler:refresh',
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1525909002-1b05e0c869d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
-      alt: 'Features Image',
+      src: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
+      alt: 'Features Cybtek Image',
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Main Features</h3>
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Caractéristiques principales</h3>
     </Fragment>
   </Content>
 
@@ -133,76 +116,76 @@ const metadata = {
     isAfterContent
     items={[
       {
-        title: 'Time Savings',
+        title: 'Gain de temps ⏱️',
         description:
-          'Streamline your workflow, enabling you to create stunning materials efficiently and allocate more time to your core tasks.',
+          'Automatisez les tâches répétitives et concentrez-vous sur la croissance de votre entreprise.',
         icon: 'tabler:clock',
       },
       {
-        title: 'Professional Appearance',
+        title: 'Précision accrue 🎯',
         description:
-          'Elevate your projects with the polished and sophisticated look that our templates provide, making a lasting impression on your audience.',
-        icon: 'tabler:school',
+          'Améliorez la qualité de vos décisions grâce à des analyses basées sur des données précises et fiables.',
+        icon: 'tabler:bullseye-arrow',
       },
       {
-        title: 'Cost-Efficiency',
+        title: 'Réduction des coûts 💰',
         description:
-          'Benefit from cost savings by avoiding the need for custom design work, as our templates offer professional-grade designs at a fraction of the cost.',
+          'Optimisez vos ressources et réduisez les dépenses grâce à l'efficacité de nos solutions d'IA.',
         icon: 'tabler:coin',
       },
       {
-        title: 'Instant Download',
+        title: 'Innovation continue 🚀',
         description:
-          'Enjoy immediate access to your chosen templates upon purchase, enabling you to begin working on your projects without delay.',
-        icon: 'tabler:file-download',
+          'Restez à la pointe de la technologie avec nos mises à jour régulières et nos nouvelles fonctionnalités.',
+        icon: 'tabler:rocket',
       },
     ]}
     image={{
-      src: 'https://images.unsplash.com/photo-1552664688-cf412ec27db2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-      alt: 'Benefits Image',
+      src: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
+      alt: 'Benefits Cybtek Image',
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Benefits</h3>
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Avantages</h3>
     </Fragment>
   </Content>
 
   <!-- Testimonials Widget *********** -->
 
   <Testimonials
-    title="Words from real customers"
+    title="Ce que disent nos clients 🗣️"
     testimonials={[
       {
-        testimonial: `The designs are not only visually appealing but also highly professional. The templates have saved me a significant amount of time while helping me make a lasting impression on my clients.`,
-        name: 'Emily Kennedy',
-        job: 'Front-end developer',
+        testimonial: 'Grâce à l'IA de Cybtek, nous avons pu automatiser 70% de notre service client, améliorant considérablement notre efficacité.',
+        name: 'Sophie Martin',
+        job: 'Directrice CRM, TechCorp',
         image: {
           src: 'https://images.unsplash.com/photo-1618835962148-cf177563c6c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=930&q=80',
-          alt: 'Emily Kennedy Image',
+          alt: 'Sophie Martin Image',
         },
       },
       {
-        testimonial: `It beautifully showcases my work, with its clean and elegant design that lets my photographs shine. Customization was a breeze, even for a non-tech person like me. The result is a professional and immersive portfolio that's garnered numerous compliments.`,
-        name: 'Sarah Hansen',
-        job: 'Photographer',
+        testimonial: 'L'analyse prédictive de Cybtek nous a permis d'anticiper les tendances du marché avec une précision incroyable, boostant nos ventes de 25%.',
+        name: 'Alexandre Dubois',
+        job: 'CEO, FutureTech',
         image: {
           src: 'https://images.unsplash.com/photo-1561406636-b80293969660?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-          alt: 'Sarah Hansen Image',
+          alt: 'Alexandre Dubois Image',
         },
       },
       {
-        testimonial: `I discovered these templates and I'm impressed by their variety and quality. They've helped me establish a consistent brand image across my marketing and social platforms, elevating my business's overall appearance.`,
-        name: 'Mark Wilkinson',
-        job: 'Small business owner',
+        testimonial: 'La solution de vision par ordinateur de Cybtek a révolutionné notre contrôle qualité, réduisant les erreurs de 90% et augmentant notre productivité.',
+        name: 'Marie Lefevre',
+        job: 'Directrice des opérations, InnoFacture',
         image: {
           src: 'https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=824&q=80',
-          alt: 'Mark Wilkinson Image',
+          alt: 'Marie Lefevre Image',
         },
       },
     ]}
     callToAction={{
       target: '_blank',
-      text: 'More testimonials...',
+      text: 'Plus de témoignages...',
       href: 'https://github.com/onwidget/astrowind',
       icon: 'tabler:chevron-right',
     }}
@@ -214,11 +197,11 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Start exploring',
+        text: 'Démarrez votre projet IA',
         href: '/',
       },
     ]}
-    title="Dive into our template collection"
-    subtitle="Whether you're in business, design, or education, our templates are here to elevate your projects."
+    title="Prêt à révolutionner votre entreprise avec l'IA ? 🚀"
+    subtitle="Que vous soyez une startup ou une grande entreprise, nos solutions d'IA sont là pour propulser votre croissance."
   />
 </Layout>
