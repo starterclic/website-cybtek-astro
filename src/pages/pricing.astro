@@ -16,148 +16,96 @@ const metadata = {
   <!-- HeroText Widget ******************* -->
 
   <HeroText
-    tagline="Tarification"
-    title="Des prix stellaires pour chaque voyage IA 🚀"
-    subtitle="Choisissez le plan parfait qui s'aligne avec vos objectifs cosmiques d'IA."
+    tagline="Pricing"
+    title="Stellar Pricing for Every Journey"
+    subtitle="Choose the perfect plan that aligns with your cosmic goals."
   />
 
   <!-- Pricing Widget ******************* -->
 
   <Prices
-    title="Nos tarifs"
-    subtitle="Payez uniquement pour ce dont vous avez besoin"
+    title="Our prices"
+    subtitle="Only pay for what you need"
     prices={[
       {
-        title: '🎯 L\'IA Pour Les Nuls',
-        subtitle: 'Idéal pour les débutants en IA',
-        price: 299,
-        period: 'one-time',
+        title: 'basic',
+        subtitle: 'Optimal choice for personal use',
+        price: 29,
+        period: 'per month',
         items: [
           {
-            description: 'Configuration de base d&#39;OpenInterprereur',
+            description: 'Etiam in libero, et volutpat',
           },
           {
-            description: '1h de formation "zéro prise de tête"',
+            description: 'Aenean ac nunc dolor tristique',
           },
           {
-            description: 'Support par email pendant 1 semaine',
+            description: 'Cras scelerisque accumsan lib',
           },
           {
-            description: 'Accès à la documentation de base',
+            description: 'In hac habitasse',
           },
         ],
         callToAction: {
           target: '_blank',
-          text: 'Commencer',
-          href: 'mailto:sos@cybtek-sauveur-ia.com',
+          text: 'Get started',
+          href: '#',
         },
       },
       {
-        title: '🧠 Cerveau Augmenté',
-        subtitle: 'Parfait pour aller plus loin',
-        price: 599,
-        period: 'one-time',
+        title: 'standard',
+        subtitle: 'Optimal choice for small teams',
+        price: 69,
+        period: 'Per Month',
         items: [
           {
-            description: 'Installation sur mesure',
+            description: 'Proin vel laoreet',
           },
           {
-            description: '3h de formation pro',
+            description: 'Ut efficitur habitasse egestas',
           },
           {
-            description: '1 mois de support par e-mail',
+            description: 'Volutpat hac curabitur',
           },
           {
-            description: 'Accès à des scripts avancés',
+            description: 'Pellentesque blandit ut nibh',
           },
           {
-            description: 'Intégration avec 1 outil existant',
+            description: 'Donec fringilla sem',
           },
         ],
         callToAction: {
           target: '_blank',
-          text: 'Commencer',
-          href: 'mailto:sos@cybtek-sauveur-ia.com',
+          text: 'Get started',
+          href: '#',
         },
         hasRibbon: true,
-        ribbonTitle: 'populaire',
+        ribbonTitle: 'popular',
       },
       {
-        title: '🚀 Turbo Boost',
-        subtitle: 'Pour les pros qui veulent tout déchirer',
-        price: 999,
-        period: 'one-time',
+        title: 'premium',
+        subtitle: 'Optimal choice for companies',
+        price: 199,
+        period: 'Per Month',
         items: [
           {
-            description: 'Tout du pack "Cerveau Augmenté"',
+            description: 'Curabitur suscipit risus',
           },
           {
-            description: '2h de consultation personnalisée',
+            description: 'Aliquam habitasse malesuada',
           },
           {
-            description: 'Intégration avec tous vos outils',
+            description: 'Suspendisse sit amet blandit',
           },
           {
-            description: '3 mois de support prioritaire',
+            description: 'Suspendisse auctor blandit dui',
           },
         ],
         callToAction: {
           target: '_blank',
-          text: 'Commencer',
-          href: 'mailto:sos@cybtek-sauveur-ia.com',
+          text: 'Get started',
+          href: '#',
         },
-      },
-    ]}
-  />
-
-  <!-- Services Complémentaires ************** -->
-
-  <Features3
-    title="Services Complémentaires"
-    subtitle="Ajoutez des super-pouvoirs à votre abonnement"
-    columns={2}
-    items={[
-      {
-        title: '🧙‍♂️ L\'Alchimiste du Prompt',
-        description: 'Formation avancée au prompt engineering pour transformer vos idées en or.',
-        icon: 'tabler:bulb',
-        price: '299€/mois',
-      },
-      {
-        title: '🔍 Sherlock IA',
-        description: 'Enquête approfondie sur vos besoins en IA et recommandations sur mesure.',
-        icon: 'tabler:search',
-        price: '499€/mois',
-      },
-      {
-        title: '💪 Boost Mon IA',
-        description: 'Coaching mensuel pour muscler vos compétences en IA.',
-        icon: 'tabler:muscle',
-        price: '199€/mois',
-      },
-      {
-        title: '🎨 Picasso du Dashboard',
-        description: 'Création d\'interfaces utilisateur sur mesure pour vos outils IA.',
-        icon: 'tabler:palette',
-        price: '399€/mois',
-      },
-      {
-        title: '🕵️‍♂️ Dr. Octopus',
-        description: 'Intégration avancée de 8 outils ou plus dans votre écosystème IA.',
-        icon: 'tabler:octopus',
-        price: '799€/mois',
-      },
-      {
-        title: '🚨 SOS IA',
-        description: 'Service d\'assistance premium pour les urgences IA.',
-        icon: 'tabler:alert-circle',
-        price: '99€/mois',
-      },
-      {
-        title: '🧠 Cerveau en Location',
-        description: 'Louez un de nos experts IA pour vos projets spéciaux.',
-        icon: 'tabler:brain',
-        price: '1499€/jour',
       },
     ]}
   />
@@ -165,38 +113,38 @@ const metadata = {
   <!-- Features3 Widget ************** -->
 
   <Features3
-    title="Caractéristiques liées aux prix"
-    subtitle="Découvrez les avantages de choisir nos plans"
+    title="Price-related features"
+    subtitle="Discover the advantages of choosing our plans"
     columns={2}
     items={[
       {
-        title: 'Plans tarifaires adaptés',
-        description: 'Choisissez parmi une gamme de plans conçus pour s\'adapter à différents budgets et besoins en IA.',
+        title: 'Tiered Pricing Plans',
+        description: 'Choose from a range of pricing plans designed to accommodate different budgets and requirements.',
         icon: 'tabler:stairs',
       },
       {
-        title: 'Tarification transparente',
-        description: 'Détails des prix clairement affichés pour chaque plan, sans coûts cachés ni frais inattendus.',
+        title: 'Transparent Pricing',
+        description: 'Clearly displayed pricing details for each plan, with no hidden costs or unexpected charges.',
         icon: 'tabler:flip-vertical',
       },
       {
-        title: 'Méthodes de paiement sécurisées',
-        description: 'Passerelles de paiement sécurisées pour protéger vos informations financières lors des transactions.',
+        title: 'Secure Payment Methods',
+        description: 'Secure payment gateways to protect your financial information during transactions.',
         icon: 'tabler:shield-lock',
       },
       {
-        title: 'Accès instantané',
-        description: `Accès immédiat aux fonctionnalités de votre plan choisi dès la souscription.`,
+        title: 'Instant Access',
+        description: `Immediate access to your chosen plan's features and templates upon subscription.`,
         icon: 'tabler:accessible',
       },
       {
-        title: 'Valeur de mise à niveau',
-        description: 'Passez à des plans supérieurs pour débloquer plus de fonctionnalités et d\'avantages.',
+        title: 'Upgrade Value',
+        description: 'Upgrade to higher-tier plans to unlock more features and benefits for an enhanced experience.',
         icon: 'tabler:chevrons-up',
       },
       {
-        title: 'Support 24/7',
-        description: 'Questions répondues par chat en direct, e-mail ou téléphone, tous les jours de l\'année.',
+        title: '24H support',
+        description: 'Questions answered via live chat, email or phone, every calendar day.',
         icon: 'tabler:headset',
       },
     ]}
@@ -206,76 +154,76 @@ const metadata = {
   <!-- Steps Widget ****************** -->
 
   <Steps
-    title="Un voyage guidé du choix du plan à la maîtrise de l'IA"
-    tagline="processus simplifié"
+    title="A guided journey from plans to creativity"
+    tagline="simplified process"
     isReversed={true}
     items={[
       {
-        title: 'Explorez les plans',
+        title: 'Explore plans',
         icon: 'tabler:number-1',
       },
       {
-        title: 'Sélectionnez un plan',
+        title: 'Select a plan',
         icon: 'tabler:number-2',
       },
       {
-        title: 'Contactez-nous',
+        title: 'Sign Up / Log In',
         icon: 'tabler:number-3',
       },
       {
-        title: 'Personnalisation de votre solution',
+        title: 'Review order',
         icon: 'tabler:number-4',
       },
       {
-        title: 'Installation et configuration',
+        title: 'Enter payment details',
         icon: 'tabler:number-5',
       },
       {
-        title: 'Formation',
+        title: 'Confirmation',
         icon: 'tabler:number-6',
       },
       {
-        title: 'Profitez de votre IA boostée !',
+        title: 'Download and start using the template(s)',
         icon: 'tabler:number-7',
       },
     ]}
     image={{
       src: 'https://images.unsplash.com/photo-1536816579748-4ecb3f03d72a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80',
-      alt: 'Étapes Cybtek',
+      alt: 'Steps image',
     }}
   />
 
   <!-- FAQs Widget ******************* -->
 
   <FAQs
-    title="FAQ sur les tarifs"
-    subtitle="Choisir le bon plan est important, et nous sommes là pour répondre à vos questions. Si vous avez des interrogations sur nos options tarifaires, vous êtes au bon endroit."
+    title="Pricing FAQs"
+    subtitle="Choosing the right plan is important, and we're here to answer your questions. If you have queries about our pricing options, you're in the right place."
     columns={1}
     items={[
       {
-        title: 'Les plans incluent-ils un support client ?',
+        title: 'Do the plans come with customer support?',
         description:
-          'Absolument, tous les plans incluent l\'accès à notre support client dédié pour vous aider avec toutes vos questions ou préoccupations.',
+          'Absolutely, all plans include access to our dedicated customer support to assist you with any queries or concerns.',
       },
       {
-        title: 'Y a-t-il une période d\'essai pour les différents plans ?',
+        title: 'Is there a trial period for the different plans?',
         description:
-          "Malheureusement, nous n'offrons pas de période d'essai pour les plans. Cependant, nous pouvons organiser une démonstration personnalisée pour vous montrer la qualité de nos solutions.",
+          "Unfortunately, we don't offer trial periods for the plans. However, you can check out our demo section to preview the quality of our templates.",
       },
       {
-        title: 'Puis-je changer de plan ?',
+        title: 'Can I switch between plans?',
         description:
-          'Certainement ! Vous pouvez facilement passer à un plan supérieur ou inférieur à tout moment pour trouver celui qui correspond le mieux à vos besoins évolutifs.',
+          'Certainly! You can easily upgrade or downgrade your plan, at any time, to find the one that best suits your evolving requirements.',
       },
       {
-        title: 'Quels modes de paiement acceptez-vous ?',
+        title: 'What payment methods do you accept?',
         description:
-          'Nous acceptons les principales cartes de crédit et les méthodes de paiement en ligne pour assurer un processus de transaction pratique et sécurisé.',
+          'We accept major credit cards and online payment methods to ensure a convenient and secure transaction process.',
       },
       {
-        title: 'Y a-t-il des frais cachés au-delà du coût affiché ?',
+        title: 'Are there any hidden fees beyond the displayed cost?',
         description:
-          'Non, le coût de la souscription couvre toutes les fonctionnalités et services listés sous chaque plan. Il n\'y a pas de frais cachés ou de charges supplémentaires.',
+          'No, the subscription cost covers all the features and templates listed under each plan. There are no hidden fees or extra charges.',
       },
     ]}
   />
@@ -283,13 +231,13 @@ const metadata = {
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
-    title="Prêt à booster vos projets avec l'IA ? 🚀"
-    subtitle="Rejoignez notre communauté de clients satisfaits qui ont transformé leur travail avec nos solutions IA."
+    title="Ready to boost your projects?"
+    subtitle="Join our community of satisfied customers who have transformed their work with our templates."
     actions={[
       {
         variant: 'primary',
-        text: 'Contactez-nous maintenant',
-        href: 'mailto:sos@cybtek-sauveur-ia.com',
+        text: 'Get started now',
+        href: '/',
       },
     ]}
   />
